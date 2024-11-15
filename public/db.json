@@ -1,0 +1,28 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications.",
+        "company": "Tech Corp",
+        "location": "San Francisco, CA",
+        "salary": "$120,000",
+        "postedDate": "2024-08-01"
+      },
+      {
+        "id": 2,
+        "title": "Product Manager",
+        "description": "Oversee product development and strategy.",
+        "company": "Innovate Inc",
+        "location": "New York, NY",
+        "salary": "$110,000",
+        "postedDate": "2024-08-05"
+      },
+      {
+        "username": "admin",
+        "password": "password123"
+      }
+      
+    ]
+  }
+  

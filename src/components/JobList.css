@@ -1,0 +1,59 @@
+/* Basic styling for the Job List component */
+.job-list-container {
+  background-image: url("../assets/image2.jpg");
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.job-list-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.job-category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.job-category-card {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 45%;
+  margin: 20px 0;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.job-category-card:hover {
+  transform: translateY(-10px);
+  background-color: #fff;
+}
+
+.job-category-title {
+  font-size: 1.8em;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.job-roles-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-role-item {
+  font-size: 1.2em;
+  color: #555;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.job-role-item:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,116 @@
+.home {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section with Background Image */
+.hero {
+  color: #003366;
+  text-align: center;
+  padding: 10rem 0;
+  background-color: rgb(240, 255, 255); /* Add the background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Search Bar Container */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* Search Bar */
+.search-bar {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+  max-width: 600px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Focus Effect */
+.search-bar:focus {
+  border-color: #003366;
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.5);
+}
+
+/* Call to Action Button */
+.cta-button {
+  padding: 1rem 2rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #003366;
+  transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+.cta-button:hover {
+  background-color: #e6b800;
+}
+
+/* Job Suggestions */
+.job-suggestions {
+  
+  border-radius: 5px;
+  max-width: 60%;
+  margin: 1rem auto;
+  position: absolute;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Job Suggestion */
+.job-suggestion {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover Effect for Suggestions */
+.job-suggestion:hover {
+  background-color: #f0f0f0;
+}
+
+/* No Results Message */
+.no-results {
+  padding: 0.5rem;
+  text-align: center;
+  color: #666;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.feature {
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  color: #555;
+}

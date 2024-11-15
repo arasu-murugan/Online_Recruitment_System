@@ -1,0 +1,54 @@
+.contacts-container {
+  background-color: #003366; /* Dark blue background */
+  color: white;
+  padding: 20px;
+}
+
+.footer-sections {
+  display: flex;
+  flex-wrap: wrap; /* Allows the columns to wrap on smaller screens */
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1; /* Allows columns to grow equally */
+  min-width: 200px; /* Minimum width for responsiveness */
+  margin: 10px; /* Space between columns */
+}
+
+.footer-column h3 {
+  border-bottom: 1px solid #fff; /* Optional: add a border under headings */
+  padding-bottom: 10px; /* Space below headings */
+}
+
+.footer-column ul {
+  list-style: none; /* Remove default list style */
+  padding: 0; /* Remove padding */
+}
+
+.footer-column li {
+  margin: 5px 0; /* Space between list items */
+}
+
+.social-media {
+  margin-top: 20px; /* Space above the social media section */
+}
+
+.social-media h3 {
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+  color: white; /* Icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+  color: #ffcc00; /* Change color on hover */
+}

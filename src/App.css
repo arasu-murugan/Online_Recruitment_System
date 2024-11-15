@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.job-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
